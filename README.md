@@ -45,3 +45,7 @@
 ## 연산자 우선순위 기억하는 방법
 1. 상식선에서 우선 순위를 사용하자
 2. 애매하면 괄호()를 사용하자
+
+## 자바에서의 계산
+1. 같은 타입끼리의 계산은 같은 타입의 결과를 냄(int + int = int, double + double = double)
+2. 다른 타입의 계산은 큼 범위로 자동 형변환이 일어남(int + double = double + double, int + long = long + long)
