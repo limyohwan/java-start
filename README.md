@@ -49,3 +49,18 @@
 ## 자바에서의 계산
 1. 같은 타입끼리의 계산은 같은 타입의 결과를 냄(int + int = int, double + double = double)
 2. 다른 타입의 계산은 큼 범위로 자동 형변환이 일어남(int + double = double + double, int + long = long + long)
+
+## 자바는 항상 변수의 값을 복사해서 대입함
+
+## 변수명 vs 메서드명
+- 변수 이름은 명사를 사용(customerName, totalSum, employeeCount)
+- 메서드명은 무언가를 동작하기 때문에 일반적으로는 동사를 사용(printReport(), calculateSum(), addCustomer())
+
+## 메서드 사용의 장점
+- 코드 재사용
+- 코드 가독성
+- 모듈성
+- 코드 유지 관리
+- 재사용성 확장성
+- 추상화
+- 테스트와 디버깅 용이성
